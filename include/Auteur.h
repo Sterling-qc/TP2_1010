@@ -18,6 +18,7 @@ public:
 
 	friend std::ostream& operator<<(std::ostream& o, const Auteur& auteur);
 	bool operator==(const std::string& nom) const;
+	//OKOKOK
 
 private:
     std::string nom_;
